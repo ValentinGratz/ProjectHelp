@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Accueil";
+}
+
+<div class="container">
+    <h1 class="center">LazyJam</h1>
+    <br>
+    <h5 class="center">@ViewData["Result"]</h5>
+    <br>
+        <div class="row">
+            <form class="col s12" action="" method="POST">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Votre mail" name="email" type="email" class="validate">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Votre mot de passe" name="password" type="password" class="validate">
+                    </div>
+                </div>
+                <div class="row center">
+                    <input class="btn" type="submit" value="Commencer !">
+                </div>
+            </form>
+        </div>
+</div>
