@@ -1,5 +1,7 @@
 # ProjectHelp
 
+![alt text](https://github.com/SecretsMan/ProjectHelp/blob/master/logo.png)
+
 ## Présentation
 
 Hello !
