@@ -1,0 +1,19 @@
+{
+  "name": "ProjectHelp-API",
+  "version": "0.0.1",
+  "description": "CMS for project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SecretsMan",
+  "license": "AGPLV3",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongodb": "^2.2.33"
+  }
+}

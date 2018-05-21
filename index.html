@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="assets/css/semantic.css">
+  <style>
+  .main.container {
+    padding-top: 50px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="ui inverted fixed menu">
+  </div>
+
+  
+  <div class="ui main container" id="sign-up">
+    <h1 style="text-align: center;">Connextion</h1>
+    <div id="result">{{ message }}</div>
+    <form class="ui form">
+      <div class="field">
+        <label>Nom d'utilisateur</label>
+        <input placeholder="Le nom d'utilisateur" type="text" v-model="username">
+      </div>
+      <div class="field">
+        <label>Mot de passe</label>
+        <input type="password" placeholder="MotDePasse" v-model="password">
+      </div>
+      <button class="ui button" @click.prevent="submit">Connextion !</button>
+    </form>
+  </div>
+
+  <script src="assets/js/vue.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/semantic.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
