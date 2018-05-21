@@ -1,0 +1,9 @@
+{
+	"name": "ProjectHelp",
+	"show_name": "PH",
+	"lang": "fr",
+	"start_url": "/",
+	"display": "standalone",
+	"theme_color": "#009688",
+	"background_color": "#009688"
+}
